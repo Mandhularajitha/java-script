@@ -7,9 +7,9 @@ dic={
 
     }
 var sum1=0
-for (keys in dic){
+for (keys in Object.keys(dic)){
 
-    sum1=sum1+(keys)
+    sum1=sum1+Number(keys)
 }
 console.log(sum1)
 
